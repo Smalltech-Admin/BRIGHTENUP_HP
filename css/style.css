@@ -64,7 +64,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
   scroll-behavior: smooth;
 }
 
@@ -109,19 +109,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.25rem;
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 p {
@@ -157,7 +157,7 @@ p:last-child {
 .section__title {
   text-align: center;
   margin-bottom: var(--spacing-xl);
-  font-size: 1.75rem;
+  font-size: 2rem;
   position: relative;
 }
 
@@ -462,14 +462,14 @@ p:last-child {
 }
 
 .hero__title {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   margin-bottom: var(--spacing-md);
   color: var(--color-white);
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .hero__subtitle {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   margin-bottom: var(--spacing-lg);
   opacity: 0.95;
 }
@@ -531,13 +531,13 @@ p:last-child {
 }
 
 .feature-card__title {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   margin-bottom: var(--spacing-sm);
 }
 
 .feature-card__text {
   color: var(--color-text-sub);
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 /* ----------------------------------------
@@ -573,7 +573,7 @@ p:last-child {
 }
 
 .service-card__title {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   margin-bottom: var(--spacing-sm);
   color: var(--color-text);
 }
@@ -609,7 +609,7 @@ p:last-child {
 }
 
 .area__title {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-bottom: var(--spacing-sm);
 }
 
@@ -628,7 +628,7 @@ p:last-child {
 }
 
 .cta__title {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-bottom: var(--spacing-lg);
   color: var(--color-white);
 }
@@ -648,7 +648,7 @@ p:last-child {
   background-color: var(--color-white);
   color: var(--color-text);
   border-radius: var(--radius-lg);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
@@ -678,7 +678,7 @@ p:last-child {
 }
 
 .recruit-banner__title {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-bottom: var(--spacing-sm);
   color: var(--color-white);
 }
@@ -699,7 +699,7 @@ p:last-child {
 }
 
 .page-header__title {
-  font-size: 2rem;
+  font-size: 2.25rem;
   margin-bottom: var(--spacing-sm);
   color: var(--color-white);
 }
@@ -736,7 +736,7 @@ p:last-child {
 }
 
 .service-detail__content h3 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-bottom: var(--spacing-md);
   padding-bottom: var(--spacing-sm);
   border-bottom: 3px solid var(--color-primary);
@@ -812,13 +812,13 @@ p:last-child {
 }
 
 .flow__title {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-bottom: var(--spacing-xs);
 }
 
 .flow__text {
   color: var(--color-text-sub);
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 /* ----------------------------------------
@@ -833,13 +833,13 @@ p:last-child {
 }
 
 .company-philosophy__title {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   color: var(--color-text-sub);
   margin-bottom: var(--spacing-md);
 }
 
 .company-philosophy__slogan {
-  font-size: 2rem;
+  font-size: 2.25rem;
   color: var(--color-primary);
   margin-bottom: var(--spacing-md);
 }
@@ -912,7 +912,7 @@ p:last-child {
   background-color: var(--color-white);
   border: none;
   text-align: left;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 500;
   cursor: pointer;
   display: flex;
@@ -1004,7 +1004,7 @@ p:last-child {
 }
 
 .recruit-message__title {
-  font-size: 1.75rem;
+  font-size: 2rem;
   margin-bottom: var(--spacing-md);
   color: var(--color-secondary-2);
 }
@@ -1015,7 +1015,7 @@ p:last-child {
 }
 
 .recruit-message__highlight {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--color-secondary-3);
 }
@@ -1050,13 +1050,13 @@ p:last-child {
 }
 
 .benefit-item__content h4 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: var(--spacing-xs);
 }
 
 .benefit-item__content p {
   color: var(--color-text-sub);
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .recruit-table {
@@ -1160,7 +1160,7 @@ p:last-child {
    ---------------------------------------- */
 @media (max-width: 767px) {
   html {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .section {
@@ -1168,7 +1168,7 @@ p:last-child {
   }
 
   .section__title {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 
   /* Header Mobile */
@@ -1228,11 +1228,11 @@ p:last-child {
   }
 
   .hero__title {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 
   .hero__subtitle {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .hero__buttons {
@@ -1286,7 +1286,7 @@ p:last-child {
 
   /* Page Header Mobile */
   .page-header__title {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 
   /* Service Detail Mobile */
@@ -1317,13 +1317,13 @@ p:last-child {
   /* FAQ Mobile */
   .faq-item__question {
     padding: var(--spacing-sm) var(--spacing-md);
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 
   .faq-item__answer {
     padding: var(--spacing-sm) var(--spacing-md);
     padding-left: calc(var(--spacing-md) + 1.2rem);
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   /* Recruit Mobile */
@@ -1332,7 +1332,7 @@ p:last-child {
   }
 
   .recruit-message__title {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 
   .recruit-table th,
