@@ -14,6 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // スムーススクロール
   initSmoothScroll();
+
+  // ヒーロースライドショー
+  initHeroSlideshow();
 });
 
 /**
@@ -176,4 +179,30 @@ function initPhoneLink() {
       }
     });
   });
+}
+
+/**
+ * ヒーロースライドショーの初期化
+ */
+function initHeroSlideshow() {
+  const slideshow = document.querySelector('.hero__slideshow');
+
+  if (!slideshow) return;
+
+  const slides = slideshow.querySelectorAll('.hero__slide');
+
+  if (slides.length <= 1) return;
+
+  let currentSlide = 0;
+  const slideInterval = 5000; // 5秒ごとに切り替え
+
+  // 最初のスライドをアクティブに
+  slides[0].classList.add('is-active');
+
+  // スライドを切り替える
+  setInterval(function() {
+    slides[currentSlide].classList.remove('is-active');
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add('is-active');
+  }, slideInterval);
 }
