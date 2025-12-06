@@ -443,6 +443,12 @@ p:last-child {
   height: 100%;
   object-fit: cover;
   z-index: 0;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.hero__bg.is-active {
+  opacity: 1;
 }
 
 .hero__content {
