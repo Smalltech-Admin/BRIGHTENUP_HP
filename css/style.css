@@ -1214,10 +1214,18 @@ main {
 
   /* Header Mobile */
   .header__top {
-    padding: var(--spacing-sm);
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
+
+  .header__logo {
+    font-size: 1.15rem;
   }
 
   .header__phone {
+    display: none;
+  }
+
+  .header__contact .btn {
     display: none;
   }
 
@@ -1227,7 +1235,7 @@ main {
 
   .nav {
     position: fixed;
-    top: 60px;
+    top: 48px;
     left: 0;
     right: 0;
     background-color: var(--color-white);
@@ -1269,16 +1277,27 @@ main {
   }
 
   .hero__title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .hero__subtitle {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
   }
 
   .hero__buttons {
     flex-direction: column;
     align-items: center;
+    gap: var(--spacing-sm);
+  }
+
+  .hero__buttons .btn--large {
+    padding: var(--spacing-sm) var(--spacing-lg);
+    font-size: 0.95rem;
+  }
+
+  /* Message Section Mobile */
+  .message-section__title {
+    font-size: 1.5rem;
   }
 
   /* Features Mobile */
