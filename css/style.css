@@ -1,5 +1,5 @@
 /* ========================================
-   彩り（いろどり）訪問介護 - スタイルシート
+   合同会社ブライトンアップ - スタイルシート
    ======================================== */
 
 /* ----------------------------------------
@@ -1129,6 +1129,97 @@ main {
 }
 
 /* ----------------------------------------
+   Contact Cards
+   ---------------------------------------- */
+.contact-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-lg);
+}
+
+.contact-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+.contact-card__icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto var(--spacing-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  border-radius: 50%;
+}
+
+.contact-card:nth-child(1) .contact-card__icon {
+  background-color: rgba(232, 168, 124, 0.2);
+  color: var(--color-primary);
+}
+
+.contact-card:nth-child(2) .contact-card__icon {
+  background-color: rgba(133, 205, 202, 0.2);
+  color: var(--color-secondary-1);
+}
+
+.contact-card__title {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.contact-card__info {
+  margin-bottom: var(--spacing-md);
+}
+
+.contact-card__info a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-xs) 0;
+  font-size: 1.1rem;
+  color: var(--color-text);
+  font-weight: 500;
+}
+
+.contact-card__info a i {
+  color: var(--color-accent);
+}
+
+.contact-card__info a:hover {
+  color: var(--color-accent);
+}
+
+/* ----------------------------------------
+   Synergy Section
+   ---------------------------------------- */
+.synergy-section {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.synergy-section__title {
+  font-size: 1.75rem;
+  color: var(--color-accent);
+  margin-bottom: var(--spacing-xl);
+}
+
+.synergy-section__title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary-1), var(--color-secondary-2));
+  margin: var(--spacing-sm) auto 0;
+  border-radius: var(--radius-full);
+}
+
+/* ----------------------------------------
    Utilities
    ---------------------------------------- */
 .text-center {
@@ -1408,6 +1499,11 @@ main {
 
   .recruit-table td {
     padding-top: 0;
+  }
+
+  /* Contact Cards Mobile */
+  .contact-cards {
+    grid-template-columns: 1fr;
   }
 
   /* Footer Mobile */

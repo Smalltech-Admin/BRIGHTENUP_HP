@@ -1,5 +1,5 @@
 /**
- * 彩り（いろどり）訪問介護 - メインJavaScript
+ * 合同会社ブライトンアップ - メインJavaScript
  */
 
 document.addEventListener('DOMContentLoaded', function() {
